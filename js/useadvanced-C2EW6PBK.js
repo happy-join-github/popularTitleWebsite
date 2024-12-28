@@ -1,0 +1,1 @@
+import{d as s}from"./index-1kcOvSsv.js";const t=s("toAnswerView",{state:()=>({answer:[],result:[],list:[]}),getters:{},actions:{sendMsg(s){this.result=s},solutionMsg(){return{userresult:this.result,okresult:this.answer,list:this.list}},init(s,t){this.list=s,this.answer=t}}});export{t as u};
